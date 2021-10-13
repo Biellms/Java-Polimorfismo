@@ -71,7 +71,7 @@ public class Main {
 		System.out.print("\n 3) Subir Árvore");
 		System.out.print("\n Opção: "); op = ler.nextInt();
 		while (op >=1 || op <= 3) {	// Exibe Métodos
-			if (op == 1) { System.out.print("\n Qual SOM o seu CAVALO faz? ");
+			if (op == 1) { System.out.print("\n Qual SOM a sua PREGUIÇA faz? ");
 			String som = ler.next(); tired.som(som);	// Lê o som digitado
 				break; }
 			if (op == 2) { int correr = 0; tired.correr(correr); break;}
